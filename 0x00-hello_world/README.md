@@ -5,3 +5,4 @@ name
 puts
 print
 size
+intel
