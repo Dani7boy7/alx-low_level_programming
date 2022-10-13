@@ -6,3 +6,4 @@ puts
 print
 size
 intel
+qiote
