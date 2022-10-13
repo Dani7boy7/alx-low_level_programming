@@ -3,3 +3,4 @@ compiler
 assembler
 name
 puts
+print
