@@ -4,3 +4,4 @@ assembler
 name
 puts
 print
+size
