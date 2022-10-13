@@ -2,3 +2,4 @@
 compiler
 assembler
 name
+puts
