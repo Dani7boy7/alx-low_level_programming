@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * 	*main - print numbers
+ *	*main - print numbers
  *
- * 	* Return: 0 if succesful
+ *	* Return: 0 if succesful
  */
 
 int main(void)
