@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * 	* main - give a random number to the variable n every time the code executes
- * 	* string of the last digit
- * 	* use the strings , and is greater than 5, is 0,is less than 6 and not 0
- * 	* use the above strings
- * 	* Return: 0 if succesfull
- * 	
+ *	* main - give random number to the variable n every time the code executes
+ *	* string of the last digit
+ *	* use the strings , and is greater than 5, is 0,is less than 6 and not 0
+ *	* use the above strings
+ *	* Return: 0 if succesfull
+ *
  */
 
 int main(void)
