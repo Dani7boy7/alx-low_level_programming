@@ -8,11 +8,11 @@
  *
  *    * Description: using the main function
  *
- *     * this program prints "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+ *     * this program prints "abcopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
  *
- *      * Return: 0
+ *      * Return: 0 if succesful
  *
- *       */
+ */
 
 int main(void)
 
@@ -22,19 +22,17 @@ int main(void)
 
 
 
-			for (ch = 'a' ; ch <= 'z' ; ch++)
-
+		for (ch = 'a' ; ch <= 'z' ; ch++)
 					{
 
 								putchar(ch);
 
-									}
+					}
 
 				for (ch = 'A' ; ch <= 'Z' ; ch++)
 
-						{
-
-									putchar(ch);
+		{
+					putchar(ch);
 
 										}
 
