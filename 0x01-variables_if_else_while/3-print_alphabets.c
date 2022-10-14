@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  *  * main - print alphabets in uppercase
  *
  *
- *    * Description: using the main function
  *
  *     * this program prints "abcopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
  *
@@ -16,7 +14,8 @@
 int main(void)
 {
 	char ch;
-	for (ch = 'a' ; ch ,= 'z' ; ch++)
+
+	for (ch = 'a' ; ch = 'z' ; ch++)
 	{
 		putchar(ch);
 	}
