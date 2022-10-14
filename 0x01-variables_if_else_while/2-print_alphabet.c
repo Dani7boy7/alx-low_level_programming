@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  *	* main - this is a program prints lowercase alphabets followed by a new line
