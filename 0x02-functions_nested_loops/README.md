@@ -11,3 +11,4 @@ git push
 echo print last digit
 jack bauer
 9 times
+add two num
