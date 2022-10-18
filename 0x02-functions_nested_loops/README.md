@@ -12,3 +12,4 @@ echo print last digit
 jack bauer
 9 times
 add two num
+print to 98
