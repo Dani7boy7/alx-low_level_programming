@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * 	* print_remaining_days - prints how many date there are in a leap year
- * 	* @month: the months to be counted
- * 	* @day: day of the month
- * 	* @year: the year to be seen
- * 	* Return: void
+ *	* print_remaining_days - prints how many date there are in a leap year
+ *	* @month: the months to be counted
+ *	* @day: day of the month
+ *	* @year: the year to be seen
+ *	* Return: void
  */
 
 void print_remaining_days(int month, int day, int year)
@@ -24,7 +24,7 @@ void print_remaining_days(int month, int day, int year)
 	{
 		if (month == 2 && day == 60)
 		{
-			printf ("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+			printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 		}
 		else
 		{
