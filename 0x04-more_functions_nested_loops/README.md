@@ -6,3 +6,4 @@ print numbers
 more numbers
 draw
 ten
+draw square
