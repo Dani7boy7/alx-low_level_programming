@@ -7,3 +7,4 @@ more numbers
 draw
 ten
 draw square
+FizzBuzz
