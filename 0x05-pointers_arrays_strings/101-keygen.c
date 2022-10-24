@@ -23,7 +23,7 @@ int main(void)
 		ascii -= random;
 		i++;
 	}
-	if (ascii > 0)
+		if (ascii > 0)
 		password[i] = ascii;
 	else
 	{
@@ -34,6 +34,7 @@ int main(void)
 	{
 		printf("%c", password[j]);
 	}
+
 	return (0);
 }
 
