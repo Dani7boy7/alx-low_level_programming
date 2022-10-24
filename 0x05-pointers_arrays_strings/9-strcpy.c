@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  *	* char *_strcpy - it copirs a string
