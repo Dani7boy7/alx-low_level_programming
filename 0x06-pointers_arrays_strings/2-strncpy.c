@@ -5,7 +5,7 @@
  *	* @dest: the input value
  *	* @src: the other input value
  *	* @n: the third value
- *
+ *	* Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
