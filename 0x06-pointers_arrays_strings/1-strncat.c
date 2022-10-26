@@ -2,7 +2,7 @@
 
 /**
  *	* _strncat - used to concatnate two stringsusing n bytes
- *	* @dest: the input 
+ *	* @dest: the input
  *	* @src: the other input value
  *	* @n: the third input value
  *	* Return: dest
