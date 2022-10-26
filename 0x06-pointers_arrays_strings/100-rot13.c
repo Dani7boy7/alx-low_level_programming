@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- *	* rot13 - it is encoder for rot13
- *	* @str: it is pointer to string
- *	* Return: a poiter
+ * rot13 - it is encoder for rot13
+ * @str: it is pointer to string
+ * Return: a poiter
  *
  */
 
