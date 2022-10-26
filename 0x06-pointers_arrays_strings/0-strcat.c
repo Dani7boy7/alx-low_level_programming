@@ -5,7 +5,6 @@
  *	* @src: the value to be inputed
  *	* @dest: the other input value
  *	* Return: void
- *
  */
 
 char *_strcat(char *dest, char *src)
