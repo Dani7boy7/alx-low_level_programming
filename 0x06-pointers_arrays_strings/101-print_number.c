@@ -3,7 +3,6 @@
 /**
  *	* print_number - print the numbers as characters
  *	* @n: integer parameters
- *	* Return: 0
  *
  */
 
