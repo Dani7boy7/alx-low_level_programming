@@ -28,7 +28,7 @@ char *rot13(char *str)
 		'r', 's', 't', 'u', 'v', 'w',
 		'x', 'y', 'z', 'a', 'b', 'c',
 		'd', 'e', 'f', 'g', 'h', 'i',
-		'j', 'k', 'l', 'm'}
+		'j', 'k', 'l', 'm'};
 	while (str[indx1])
 	{
 		for (indx2 = 0; indx2 < 52; indx2++)
@@ -42,5 +42,5 @@ char *rot13(char *str)
 		indx1++;
 	}
 
-	return (str)
-#
+	return (str);
+}
