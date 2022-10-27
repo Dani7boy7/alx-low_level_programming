@@ -10,13 +10,12 @@ int main(void)
 	p = &n;
 /*
  *  write your line of code here...
- *  remember
+ *  Remember:
  *  main - magic
  *  - you are not allowed to use a
  *   - you are noy allowed to modify p
  *   - only one statment
  *   - you are not allowed to code anything else than this line of code
- *  Return: 0
  */
 	*(p + 5) = 98;
 /* ...so that this prints 98\n */
