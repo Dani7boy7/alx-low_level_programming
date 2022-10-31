@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *	* _STRPBRK - ENTRY POINT
+ *	* _strpbrk - ENTRY POINT
  *	* @s: first input
  *	* @accept: second input
  *	* Return: 0 when succesful
  *
  */
- 
+
 char *_strpbrk(char *s, char *accept)
 {
 	int k;
