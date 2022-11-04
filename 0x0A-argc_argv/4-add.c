@@ -1,49 +1,33 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
 
 /**
- *	* _atoi - changes a string to integer
- *	* @s: the string to be converted
- *	* Return: the integer converted
+ *	* check_num - changes a string to integer
+ *	* @str: the string to be converted
+ *	* Return: 0 when succesful
  */
-int _atoi(char *s)
+int check_num(char *str)
+
 {
-	int i, d, n, len, f, digit;
+	/*Declaring variables*/
+	unsigned int count;
 
-	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
+	count = 0;
+	while (count < strlen(str)) /*count string*/
 
-	while (s[len] != '\0')
-		len++;
-
-	while (i < len && f == 0)
 	{
-		if (s[i] == '-')
-			++d;
-
-		if (s[i] >= '0' && s[i] <= '9')
+		if (!isdigit(str[count]))
 		{
-			digit = s[i] - '0';
-			if (d % 2)
-				digit = -digit;
-			n = n * 10 + digit;
-			f = 1;
-			if (s[i + 1} < '0' || s[i + 1] > '9')
-				break;
-			f = 0;
+			return (0);
+		}
+
+		count++
 	}
-	i++;
+	return (1);
 }
-
-if (f == 0)
-	return (0);
-
-	return (n);
-	}
 
 /**
  *	* main - adds two posotive numbers
@@ -54,31 +38,29 @@ if (f == 0)
 
 int main(int argc, char *argv[])
 {
-	int sum, num, i, j, k;
+	int count;
+	int str_to_int;
+	int sum = 0;
 
-	sum = 0;
-
-	for (i = 1; i < argc; i++)
+	count = 1;
+	while (count < argc)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
-		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
-			{
-				puts("Error");
-				return (1);
-			}
-		}
-	}
+		if (check_num(argv[count]))
 
-	for (k = 1; k < argc; k++)
-	{
-		num = _atoi(argv[k]);
-		if (num >= 0)
 		{
-			sum += num;
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
 		}
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+
+		count++;
 	}
 
 	printf("%d\n", sum);
+
 	return (0);
 }
