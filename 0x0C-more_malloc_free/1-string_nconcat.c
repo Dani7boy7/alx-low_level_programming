@@ -5,10 +5,10 @@
  *	* *string_nconcat - concenates given bytes
  *	* @s1: string to append
  *	* @s2: string from
- *	* @ @n: number of bytes
+ *	* @n: number of bytes
  *	* Return: pointer
  */
-chat *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s;
 	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
