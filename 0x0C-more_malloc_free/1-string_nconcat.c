@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  *	* *string_nconcat - concenates given bytes
@@ -34,6 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (n < len2 && i < (len1 + n))
 		s[i++] = s2[j++];
+
 	s[i] = '\0';
 
 	return (s);
