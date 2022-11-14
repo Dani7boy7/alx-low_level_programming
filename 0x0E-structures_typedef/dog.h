@@ -3,10 +3,10 @@
 
 /**
  *	* struct dog - vital info
- *	* @name: first element
- *	* @age: second element
- *	* @owner: third element
- *	* Description: long
+ *	* @name: name of the dog
+ *	* @age: age of the dog
+ *	* @owner: owner of the dog
+ *	* Description: struct called"dog" that stores name,age and name
  */
 
 struct dog
@@ -14,13 +14,14 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
 /**
- * dog_t - typedef for struct dog
+ *	* dog_t - typedef for struct dog
  */
-
 typedef struct dog dog_t;
+
+
 
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
