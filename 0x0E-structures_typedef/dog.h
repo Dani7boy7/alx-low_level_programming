@@ -6,7 +6,7 @@
  *	* @name: first element
  *	* @age: second element
  *	* @owner: third element
- *	* Description:long
+ *	* Description: long
  */
 
 struct dog
@@ -14,10 +14,10 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-};
+}
 
 /**
- *	* dog_t - defines struct
+ * dog_t - typedef for struct dog
  */
 
 typedef struct dog dog_t;
