@@ -60,7 +60,7 @@ int op_div(int a, int b)
  *	* Return: remainder
  */
 
-imt op_mod(int a, int b)
+int op_mod(int a, int b)
 {
 	return (a % b);
 }
