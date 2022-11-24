@@ -3,15 +3,16 @@
 #include "lists.h"
 
 /**
- *	* add_node - adds new node
+ *	* add_node_end - adds new node
  *	* @head: double pointer
  *	* @str: new string
  *	* Return: the address
  */
 
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;
+	list_t *temp = *head;
 	unsigned int len = 0;
 
 	while (str[len])
@@ -23,8 +24,17 @@ list_t *add_node(list_t **head, const char *str)
 
 	new->str = strdup(str);
 	new->len = len;
-	new->next = (*head);
-	(*head) = new;
+	new->next = NULL;
+	if (*head == NULL)
+	{
+		*head = new;
+		return (new);
+	}
 
-	return (*head);
+	while (temp->next)
+		temp = temp->next;
+
+	temp->next = new;
+
+	return (new);
 }
